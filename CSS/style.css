@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container .row .logo img{
+    height: 14%;
+    width: 142%;
+    margin-top: 41px;
+    margin-left: -42px;
+    display: inline;
+}
+
+#title .container .row .title-div{
+    position: relative;
+    display: table-cell;
+    height: 200px;
+}
+
+#title .container .row .title-div h1{
+    font-size: 50px;
+    color: #0e0e0e;
+    line-height: 1.32em;
+    font-family: "Playfair Display",serif;
+    font-weight: 400;
+    margin-top: 70px;
+    
+}
+
+#title .container .row .accordion-left .accordion-item .accordion-header :hover{
+    background-color: orangered;
+    color: white;
+}
+
+#title .container .row .accordion-right .accordion-item .accordion-header :hover{
+    background-color: orangered;
+    color: white;
+}
+
+#title .container .row .accordion-left2{
+    margin-top: 200px;
+}
+#title .container .row .accordion-left2 .accordion-item .accordion-header :hover{
+    color: orangered;
+}
+#title .container .row .accordion-right2{
+    margin-top: 200px;
+}
+#title .container .row .accordion-right2 .accordion-item .accordion-header :hover{
+    color: orangered;
+}
+
+
+
+
