@@ -2,14 +2,7 @@ $(document).ready(function () {
 
                 // START ACCORDION
 
-  // $(".accordion-button").click(function () {
-  //   $(".plus").addClass("d-none")
-  //   $(".minus").removeClass("d-none")
-  // });
-
-  // $(".accordion-button").dblclick(function () {
-  //   $(".minus").removeClass("d-none")
-  // });
+ 
 
   $(".accordion-button").mouseenter(function(){
     $(".minus").removeClass("d-none")
@@ -26,11 +19,6 @@ $(document).ready(function () {
                   // END ACCORDION
 
 
-                  //START TABS
-// if($( "#nav-home-tab" ).tabs({ active:1})){
-//   ("#nav-home-tab").CSS("background-color", "orangered")
-// }
-// #tabs .ui-tabs-active {
-//   background: #5ba63c;
-// }
+                 
+
 });
