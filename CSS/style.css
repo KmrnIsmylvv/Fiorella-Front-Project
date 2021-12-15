@@ -71,31 +71,49 @@
     border-top-right-radius: 0.25rem;
     width: 150px;
 }
+#tabs .container .row .nav-left .tab-left .tab-link-left{
+    color: black;
+}
+#tabs .container .row .nav-left .tab-left .tab-link-left:hover{
+    color: orangered;
+}
 
-#tabs .container .row .nav-left .tab-left #nav-home-tab:hover{
-    color: orangered;
-}
-#tabs .container .row .nav-left .tab-left #nav-profile-tab:hover{
-    color: orangered;
-}
-#tabs .container .row .nav-left .tab-left #nav-contact-tab:hover{ 
-    color: orangered;
-}
 #tabs .container .row .tab-content{
     padding: 75px 47px;
     border: 1px solid #eee; 
     width: 50%;
     margin-right: 1px;
 }
+#tabs .container .row .nav-right .tab-right .tab-link-right{
+    color: black;
+}
+#tabs .container .row .nav-right .tab-right .tab-link-right:hover{
+    background-color: orangered;
+    color: white;
+}
+#tabs .container .row .tab-full .tab-link-full{
+    color: black;
+} 
+#tabs .container .row .tab-full .tab-link-full:hover{
+    color: orangered;
+}
 
-#tabs .container .row .tab-full{
+#tabs .container .row .tab-full {
     padding: 75px 47px;
-    border: 1px solid #eee; 
     width: 100%;
     margin-right: 1px;
 }
-
-/* #nav-home-tab:hover{
-    background-color: red;
-} */
+#tabs .container .row .vertical-tab .v-buttons button{
+    color: black;
+    margin-bottom: -1px;
+    background: 0 0;
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    width: 150px;
+}
+#tabs .container .row .vertical-tab .v-buttons button:hover{
+    color: white;
+    background-color: orangered;
+}
 
