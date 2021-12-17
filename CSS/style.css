@@ -129,9 +129,9 @@
     background-color: orangered;
 }
 
-/* END TABS */
+                            /* END TABS */
 
-/* START PROGRESSBAR */
+                        /* START PROGRESSBAR */
 #progressbar .container .row .progress-left .progress {
     display: flex;
     height: 3px !important;
@@ -273,4 +273,226 @@
     100% {
         transform: translateX(0);
     }
+}
+/* END PROGRESSBAR */
+
+/* START SHOPLIST */
+
+#shoplist .container .row .card{
+    width: 270px;
+    height: 270px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: aliceblue;
+    border-radius: 0.25rem;
+}
+
+#shoplist .container .row .card .new-span{
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    display: block;
+    top: 0;
+    width: auto;
+    height: 30px;
+    background: #f34f3f;
+    color: #fff;
+    font-family: playfair display,serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px 0 0 12px;
+    padding: 5px 13px;
+    z-index: 100;
+}
+
+#shoplist .container .row .card .sold-span{
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    display: block;
+    top: 0;
+    width: auto;
+    height: 30px;
+    background: #2b2b2b;
+    color: #fff;
+    font-family: playfair display,serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px 0 0 12px;
+    padding: 5px 13px;
+    z-index: 100;
+}
+
+#shoplist .container .row .card .inner{
+    position: absolute;
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    background-color: transparent;
+}
+#shoplist .container .row .card .inner .name{
+    line-height: 1;
+    margin: 0 0 12px;
+    color: #1b1b1b;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 58px;
+    left: 81px;
+}
+#shoplist .container .row .card .inner .price{
+    font-family: Montserrat,sans-serif;
+    position: absolute;
+    top: 93px;
+    left: 101px;
+}
+#shoplist .container .row .card .inner .addcart{
+    transition: color .3s ease,background-color .3s ease,border-color .3s ease;
+    padding: 13px 42px;
+    white-space: nowrap;
+    z-index: 3;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    outline: 0;
+    font-size: 12px;
+    font-family: Montserrat,sans-serif;
+    line-height: 1.833em;
+    letter-spacing: .1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-radius: 0;
+    margin: 0;
+    color: #fff;
+    background-color: #f34f3f;
+    border: 1px solid transparent;
+    top: 173px;
+    left: 33px;
+}
+#shoplist .container .row .card-middle{
+    width: 270px;
+    height: 270px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: aliceblue;
+    border-radius: 0.25rem;
+}
+#shoplist .container .row .card-middle .new-span{
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    display: block;
+    top: 0;
+    width: auto;
+    height: 30px;
+    background: #f34f3f;
+    color: #fff;
+    font-family: playfair display,serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px 0 0 12px;
+    padding: 5px 13px;
+    z-index: 100;
+}
+#shoplist .container .row .card-middle .sold-span{
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    display: block;
+    top: 0;
+    width: auto;
+    height: 30px;
+    background: #2b2b2b;
+    color: #fff;
+    font-family: playfair display,serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px 0 0 12px;
+    padding: 5px 13px;
+    z-index: 100;
+}
+#shoplist .container .row .card-middle .name-middle{
+    line-height: 1;
+    margin: 0 0 12px;
+    color: #1b1b1b;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 274px;
+    left: 94px;
+}
+#shoplist .container .row .card-middle .price-middle{
+    font-family: Montserrat,sans-serif;
+    position: absolute;
+    top: 294px;
+    left: 116px;
+    color: #afafaf;
+}
+
+#shoplist .container .row .card-middle:hover{
+    width: 270px;
+    height: 270px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: aliceblue;
+    border-radius: 0.25rem;
+}
+#shoplist .container .row .card-bottom{
+    width: 190px;
+    height: 190px;
+}  
+#shoplist .container .row .card-bottom .name-bottom{
+    line-height: 1;
+    margin: 0 0 12px;
+    color: #1b1b1b;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    position: relative;
+    left: 38px;
+}
+#shoplist .container .row .card-bottom .price-bottom{
+    font-family: Montserrat,sans-serif;
+    position: relative;
+    top: 25px;
+    left: -27px;
+    color: #afafaf;
 }

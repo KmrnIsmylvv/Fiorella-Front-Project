@@ -19,6 +19,8 @@ $(document).ready(function () {
                   // END ACCORDION
 
                
-                 
+   $(".card").hover(function(){
+     $(".row .inner").removeClass("d-none")
+   });         
 
 });
