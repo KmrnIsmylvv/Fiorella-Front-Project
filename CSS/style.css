@@ -738,3 +738,31 @@ header nav {
     color: #afafaf;
 }
 /* END SHOPLIST */
+
+
+/* START FOOTER */
+footer {
+    background-color: #fefaf3;
+  }
+  
+  footer .items h6 {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  footer a {
+    font-size: 14px;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+  }
+  
+  footer a:hover {
+    color: #f34f3f !important;
+    text-decoration: none;
+  }
+  
+  footer p {
+    font-size: 12px;
+  }
+/* END FOOTER */
