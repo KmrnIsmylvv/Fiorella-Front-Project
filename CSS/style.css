@@ -882,5 +882,55 @@ footer {
   text-transform: uppercase;
   background-color: #f34f3f;
 }
-
 /* END PARALLAX */
+
+
+/* START BLOGS */
+#our-blogs{
+  background-color: #f7f7f7;
+}
+#our-blogs .items .img {
+  overflow: hidden;
+}
+
+#our-blogs .items .img img {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+#our-blogs .items .img img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#our-blogs .items .img .our-date {
+  top: 10px;
+  left: 10px;
+}
+
+#our-blogs .items .img .our-date span {
+  cursor: pointer;
+  font-size: 12px;
+  letter-spacing: .15em;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+#our-blogs .items .img .our-date span:hover {
+  color: #f34f3f;
+}
+
+#our-blogs .items .text h5 {
+  cursor: pointer;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+}
+
+#our-blogs .items .text p {
+  font-family: Lora, serif;
+  line-height: 29px;
+}
+/* END BLOGS */
