@@ -39,7 +39,7 @@ header nav {
     text-transform: uppercase;
     letter-spacing: .1em;
     line-height: 22px;
-    color: #737373;;
+    color: #737373;
     font-weight: 500;
   }
   
@@ -820,3 +820,67 @@ footer {
     font-size: 12px;
   }
 /* END FLOWER-EXPERTS */
+
+
+/* START PARALLAX */
+#parallax {
+  background: url(../IMG/h3-background-img.jpg);
+  background-attachment: fixed;
+}
+
+#parallax .parallax-content h3 {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+}
+
+#parallax .parallax-content input {
+  border: none;
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  padding: 30px !important;
+  width: 100% !important;
+}
+
+#parallax .parallax-content input:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media (min-width: 576px) {
+  #parallax .parallax-content input {
+    width: 50% !important;
+  }
+}
+
+#parallax .parallax-content ::-webkit-input-placeholder {
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+}
+
+#parallax .parallax-content :-ms-input-placeholder {
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+}
+
+#parallax .parallax-content ::-ms-input-placeholder {
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+}
+
+#parallax .parallax-content ::placeholder {
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+}
+
+#parallax .parallax-content button {
+  padding: 20px !important;
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  background-color: #f34f3f;
+}
+
+/* END PARALLAX */
