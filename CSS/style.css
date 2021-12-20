@@ -250,7 +250,6 @@ header nav {
     right: 0;
     z-index: 9;
   }
-
 /* END NAVBAR */
 
 /* START ACCORDION */
@@ -373,6 +372,7 @@ header nav {
                             /* END TABS */
 
                         /* START PROGRESSBAR */
+
 #progressbar .container .row .progress-left .progress {
     display: flex;
     height: 3px !important;
@@ -808,3 +808,15 @@ footer {
     font-weight: 400;
   }
 /* END VIDEO */
+
+/* START FLOWER-EXPERTS */
+#flower-experts .items .text h6 {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  #flower-experts .items .text p {
+    font-size: 12px;
+  }
+/* END FLOWER-EXPERTS */
