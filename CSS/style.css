@@ -766,3 +766,45 @@ footer {
     font-size: 12px;
   }
 /* END FOOTER */
+
+/* START VIDEO  */
+#video{
+    background-color: #f7f7f7;
+}
+  #video .img {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #video .img img {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  #video .img:hover img {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  
+  #video .img .player {
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    background: white;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);     
+  }
+  
+  #video .about-text p, #video .video-text li {
+    font-size: 17px;
+    line-height: 29px;
+  }
+  
+  #video .video-text h2{
+    font-family: playfair display,serif;
+    font-size: 38px;
+    font-weight: 400;
+  }
+/* END VIDEO */
