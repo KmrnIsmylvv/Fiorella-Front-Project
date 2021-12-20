@@ -12,6 +12,247 @@
     display: inline;
 }
 
+/* START NAVBAR */
+
+header nav {
+    padding: 0px !important;
+  }
+  
+  header nav #logo {
+    width: 205px;
+    height: 25px;
+  }
+  
+  header nav #mobile-navbar-show {
+    cursor: pointer;
+    border: none;
+  }
+  
+  header nav ul li {
+    position: relative;
+    padding: 38px 20px;
+  }
+  
+  header nav ul li a {
+    position: relative;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    line-height: 22px;
+    color: #737373;;
+    font-weight: 500;
+  }
+  
+  header nav ul li a::after {
+    content: "";
+    -webkit-transition: width .3s;
+    transition: width .3s;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background-color: black;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: none;
+  }
+  
+  header nav ul li a:hover::after {
+    width: 80%;
+  }
+  
+  header nav ul li .fa-search {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  
+  header nav ul li i, header nav ul li span {
+    cursor: pointer;
+  }
+  
+  header nav ul li ul {
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+    position: absolute;
+    top: 115px;
+    left: 0;
+    width: 228px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2;
+    background-color: white;
+  }
+  
+  header nav ul li ul li {
+    padding: 5px 30px;
+    
+  }
+  
+  header nav ul li ul li i {
+    font-size: 10px !important;
+  }
+  
+  header nav ul li ul li ul {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    top: -15px;
+    left: 100%;
+  }
+  
+  header nav ul li ul li #input-search {
+    border: none;
+  }
+  
+  header nav ul li ul li #input-search:focus {
+    outline: none;
+  }
+  
+  header nav ul li ul li:hover ul {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  header nav ul li ul .element ul {
+    top: 0;
+  }
+  
+  header nav ul li .elements li {
+    text-align: left;
+  }
+  
+  header nav ul li .shop {
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+    position: absolute;
+    top: 115px;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+    background: white;
+  }
+  
+  header nav ul li .shop ul {
+    width: auto;
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    top: 0;
+  }
+  
+  header nav ul li .shop ul li {
+    padding: 5px 0;
+  }
+  
+  header nav ul li .shop ul li a {
+    padding: 0 !important;
+  }
+  
+  header nav ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  header nav ul li:hover .shop {
+    opacity: 1;
+    visibility: visible;
+    z-index: 99;
+  }
+  
+  header nav ul li.shop-li {
+    position: static;
+  }
+  
+  header nav ul .shop-cart sup {
+    padding: 1px 3px;
+  }
+  
+  header nav ul .shop-cart ul {
+    top: 100px;
+    left: -70%;
+  }
+  
+  header nav ul .shop-cart ul li {
+    font-size: 14px;
+  }
+  
+  header nav ul .search ul {
+    visibility: visible;
+    opacity: 1;
+    top: 100px;
+    display: none;
+  }
+  
+  header nav ul .search ul li i {
+    font-size: 14px !important;
+  }
+ 
+  header .mobile-navbar {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    top: 0;
+    right: 36px;
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+    background-color:white;
+  }
+  
+  header .mobile-navbar .fa-times {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+  }
+  
+  header .mobile-navbar ul li {
+    margin-top: 20px;
+  }
+  
+  header .mobile-navbar ul li a {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+  
+  header .mobile-navbar ul li a:hover {
+    text-decoration: none;
+  }
+  
+  header .mobile-navbar ul ul {
+    display: none;
+  }
+  
+  header .mobile-navbar ul ul li {
+    margin-top: 0;
+  }
+  
+  header .mobile-navbar ul ul li a {
+    padding: 0 !important;
+    text-transform: capitalize;
+    font-size: 12px;
+    letter-spacing: 0em;
+  }
+  
+  header .mobile-navbar ul ul ul li {
+    text-transform: uppercase;
+  }
+  
+  header .mobile-navbar.active {
+    width: 420px;
+    visibility: visible;
+    opacity: 1;
+    right: 0;
+    z-index: 9;
+  }
+
+/* END NAVBAR */
+
 /* START ACCORDION */
 
 #title .container .row .title-div {
@@ -67,7 +308,7 @@
     margin-top: 70px;
 }
 
-.nav-tabs .nav-link {
+.nav-tabs .nav-content-links {
     margin-bottom: -1px;
     background: 0 0;
     border: 1px solid transparent;
@@ -496,3 +737,4 @@
     left: -27px;
     color: #afafaf;
 }
+/* END SHOPLIST */
