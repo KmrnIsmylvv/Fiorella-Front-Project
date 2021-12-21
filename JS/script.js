@@ -29,6 +29,34 @@ $(document).ready(function () {
 
   //END NAVBAR
 
+
+
+  
+// START SLIDE
+$(function() {
+  $(".Slide").vegas({
+      slides: [
+          { src: '../IMG/h3-slider-background.jpg' },
+          { src: '../IMG/h3-slider-background-2.jpg' },
+          { src: '../IMG/h3-slider-background-3.jpg' }
+      ],
+      animation: 'kenburnsDownLeft'
+  });
+});
+// END SLIDE
+
+// START BOTTOM SLIDE
+$(document).ready(function(){
+  $(".bottom-slider").owlCarousel(
+      {
+          items: 1,
+          loop: true,
+          autoplay: true
+      }
+  );
+});
+// END BOTTOM SLIDE
+
   // START ACCORDION
 
   $('.accordion-button').mouseenter(function () {
@@ -48,4 +76,12 @@ $(document).ready(function () {
   $('.card').hover(function () {
     $('.row .inner').removeClass('d-none');
   });
+
+
+
+
+
+
+
+
 });
