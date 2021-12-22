@@ -54,7 +54,34 @@ $(document).ready(function () {
 
   //END NAVBAR
 
-  
+  // START FILTER
+  $(document).on('click', '.categories', function(e)
+  {
+      e.preventDefault();
+      $(this).next().next().slideToggle();
+  })
+
+  $(document).on('click', '.category li a', function (e) {
+      e.preventDefault();
+      let category = $(this).attr('data-id');
+      let products_filter = $('.product-items');
+      
+      products_filter.each(function () {
+          if(category == $(this).attr('data-id'))
+          {
+              $(this).parent().fadeIn();
+          }
+          else
+          {
+              $(this).parent().hide();
+          }
+      })
+      if(category == 'all')
+      {
+          products_filter.parent().fadeIn();
+      }
+  })
+  // END FILTER
 
   // START SLIDE
   $(function () {
